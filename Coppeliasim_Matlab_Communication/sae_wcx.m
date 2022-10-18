@@ -136,11 +136,11 @@ if (~returnCode)
         mask = uint8(mask*255);
 
         % Parameters
-        environment = "terrain_only/"; % Note: all has obstacles + octaves
-        subEnvironment = "octaves 5/";
+        environment = "obstacles_only/"; % Note: all has obstacles + octaves
+        subEnvironment = "circle/";
         subSubEnvironment = "";
         trainOrTest = "train data/";
-        d = pwd + "/../" + environment + "heightmaps/" + subEnvironment + subSubEnvironment + trainOrTest;
+        d = pwd + "/../Generative-Terrain-Reconstruction" + environment + "heightmaps/" + subEnvironment + subSubEnvironment + trainOrTest;
         filePath = d + "forMatlab.txt";
         text = readlines(filePath);
 
@@ -148,6 +148,8 @@ if (~returnCode)
         imwrite(mask,d + "masks/" + "M_" + text(1));
         fprintf("\n\nDone\n")
         fprintf("Masks and labels %s created successfully!\n", text(1));
+        fprintf("Saved in path: \n %s\n%s", d+"labels/L_"+text(1),...
+            d+"masks/M_"+text(1));
     else
         fprintf("\n\n No Terrain!!!\n")
     end
