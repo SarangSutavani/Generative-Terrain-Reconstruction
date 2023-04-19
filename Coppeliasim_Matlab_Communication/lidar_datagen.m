@@ -1,5 +1,6 @@
 clc;clear;close all
 
+%% Connection to CoppeliaSim
 sim=remApi('remoteApi'); % using the prototype file (remoteApiProto.m)
 sim.simxFinish(-1); % just in case, close all opened connections
 clientID=sim.simxStart('127.0.0.1',19997,true,true,5000,5);
@@ -37,7 +38,8 @@ end
 sim.delete(); % call the destructor!
 
 returnCode
-%% Point cloud plotting
+
+%% Reading point cloud
 if (~returnCode)
     ptc3D = reshape(pointCloudfloat,3,[]);
 
@@ -49,7 +51,8 @@ if (~returnCode)
 %     axis off
 
 end
-%% Points within 10m X 10m region
+
+%% Points within XXm X YYm region
 if (~returnCode)
     terrain_x_size = 25; % Parameter
     terrain_y_size = 25; % Parameter
@@ -71,7 +74,8 @@ if (~returnCode)
 
     height_diff = height_max - height_min;
 
-    if(height_diff>0.1)
+    % process the data only if the maximum height variation is bigger than a threshold
+    if(height_diff>0.1) % Parameter
         row_min = -terrain_x_size/2;%min(ptc3D_close(1,:));
         row_max = terrain_x_size/2;%max(ptc3D_close(1,:));
 
@@ -82,7 +86,8 @@ if (~returnCode)
         str1 = string(c);
         str = str1(1)+'_'+str1(2)+'_'+str1(3)+'_'+str1(4)+'_'+str1(5)+'_'+str1(6);
         %
-
+        
+        % create images from the Lidar data
         img_size=250; % Parameter
         no_rows = img_size;%size(img,1);
         no_columns = img_size;%size(img,2);
