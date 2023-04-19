@@ -4,7 +4,7 @@ Using GAN to generate Terrain from LiDAR data
 
 # Running LiDAR Simulations
 
-1. Open matlab sae_wcx.m file
+1. Open matlab lidar_datagen.m file
 	- Run matlab to ensure folder is in the current .m file path
 2. Open LIDAR_Data_Generator ipynb file
 	- Click on explorer (open using jupyter or vscode)
