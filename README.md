@@ -18,5 +18,5 @@ Using GAN to generate Terrain from LiDAR data
 4. Orient windows according to screenshot located in Generative-Terrain-Reconstruction folder
 5. Close unecessary windows
 6. Change parameters in LIDAR_Data_Generator ipynb to correct environment etc.
-7. Change parameters in sae_wcx.m file
+7. Change parameters in lidar_datagen.m file
 8. Run LIDAR_Data_Generator ipynb file
