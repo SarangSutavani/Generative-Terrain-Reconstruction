@@ -18,6 +18,11 @@ We setup a pipeline to generate the data in the form of input image and correspo
 We tested this methodology on several training sets differing in terrain variation, obstacle sets and the density of LIDAR scans.
 
 
+## Two main components:
+There are two main components of this project:
+1.	Data generation and preprocessing 
+2.	cGAN training 
+
 
 
 
