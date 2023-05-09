@@ -1,5 +1,5 @@
 # Generative-Terrain-Reconstruction
-Motivation behind the project:
+## Motivation behind the project:
 -	Terrain heightmap plays a key role in the off-road path planning. The question we want to explore here is, can we estimate the local heightmap based on local sensory information only? And can we do it in a way that enables real time navigation?
 
 This research is targeted at scenarios where the vehicle is operating in an unknown environment and the terrain heightmap is not known / cannot be known a-priory.
