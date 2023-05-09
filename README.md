@@ -25,4 +25,13 @@ There are two main components of this project:
 
 
 ### Data generation and preprocessing
-We synthesized the required data from a simulation environment using the following process: i) generate a realistic heightmap with desired characteristics, ii) create a terrain in the simulation environment using the heightmap, generate the LIDAR scan in the simulation environment, process the scan into a ground projected image, iii) use the ground projected image as the input and the original heightmap as the output for training the artificial neural network.
+We synthesized the required data from a simulation environment using the following process: i) generate a realistic heightmap with desired characteristics, ii) create a terrain in the simulation environment using the heightmap, generate the LIDAR scan in the simulation environment, process the scan into a ground projected image.
+
+### cGAN training
+We used the ground projected image as the input and the original heightmap as the output for training the artificial neural network.
+
+There are some key advantages of the proposed ANN based image processing method for terrain reconstruction. 
+The LIDAR data processing pipeline (for individual scans) can be compressed to a single forward pass of the ANN. Therefore, it is possible to run the terrain reconstruction in the real time.
+Additionally, by adjusting the complexity of the neural network it can implemented on devices with low memory and low compute power to run with low latency.
+The output of this procedure can be used as a starting point other (computationally expensive) techniques to speed up the terrain reconstruction process. Or, it can also be used as a backup that requires only limited resources. 
+Since, the LIDAR scan is represented in the form of an image, therefore well established methods from image processing can be used to improve the performance.
