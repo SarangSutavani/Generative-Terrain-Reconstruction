@@ -17,3 +17,5 @@
 6. Change parameters in LIDAR_Data_Generator ipynb to correct environment etc.
 7. Change parameters in lidar_datagen.m file
 8. Run LIDAR_Data_Generator ipynb file
+https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/eac6aef4-a2ed-49ac-928d-4e656c1a30d6
+
