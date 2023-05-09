@@ -24,5 +24,5 @@ There are two main components of this project:
 2.	cGAN training 
 
 
-
+### Data generation and preprocessing
 
