@@ -20,3 +20,4 @@ Using GAN to generate Terrain from LiDAR data
 6. Change parameters in LIDAR_Data_Generator ipynb to correct environment etc.
 7. Change parameters in lidar_datagen.m file
 8. Run LIDAR_Data_Generator ipynb file
+![Screenshot from 2022-10-10 11-27-24](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/d557c44a-97a2-44d6-9e47-81d700b62b92)
