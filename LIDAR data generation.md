@@ -18,5 +18,5 @@
 7. Change parameters in lidar_datagen.m file
 8. Run LIDAR_Data_Generator ipynb file
 
-https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/eac6aef4-a2ed-49ac-928d-4e656c1a30d6
+https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/71d110c1-f46e-455a-9873-965aa050f486
 
