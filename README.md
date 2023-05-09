@@ -8,7 +8,8 @@ LIDAR is a very useful tool at our disposal for this task because of its ability
 -	uncertainties, occlusions and sparsity in the data,
 -	high computational burden associated with the processing of raw LIDAR point-cloud data.
 
-Therefore, we propose an image processing based approach that utilizes the well-known representation learning capabilities of the generative adversarial networks (GAN) for processing the LIDAR data.
+## Proposed Approach:
+We propose an image processing based approach that utilizes the well-known representation learning capabilities of the generative adversarial networks (GAN) for processing the LIDAR data.
 
 In this approach we first project the sparce LIDAR scan on the ground plane and down sample it to represent the available information as a 2.5D heightmap image with many blank spaces.
 
