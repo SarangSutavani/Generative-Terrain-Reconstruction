@@ -29,7 +29,6 @@ We synthesized the required data from a simulation environment using the followi
 
 ### cGAN training
 We used the ground projected image as the input and the original heightmap as the output for training the artificial neural network.
-
 There are some key advantages of the proposed ANN based image processing method for terrain reconstruction. 
 The LIDAR data processing pipeline (for individual scans) can be compressed to a single forward pass of the ANN. Therefore, it is possible to run the terrain reconstruction in the real time.
 Additionally, by adjusting the complexity of the neural network it can implemented on devices with low memory and low compute power to run with low latency.
