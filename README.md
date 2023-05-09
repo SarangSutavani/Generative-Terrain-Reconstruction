@@ -25,4 +25,4 @@ There are two main components of this project:
 
 
 ### Data generation and preprocessing
-
+We synthesized the required data from a simulation environment using the following process: i) generate a realistic heightmap with desired characteristics, ii) create a terrain in the simulation environment using the heightmap, generate the LIDAR scan in the simulation environment, process the scan into a ground projected image, iii) use the ground projected image as the input and the original heightmap as the output for training the artificial neural network.
