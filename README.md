@@ -1,6 +1,6 @@
 # Generative-Terrain-Reconstruction
 Motivation behind the project:
-•	Terrain heightmap plays a key role in the off-road path planning. The question we want to explore here is, can we estimate the local heightmap based on local sensory information only? And can we do it in a way that enables real time navigation?
+-	Terrain heightmap plays a key role in the off-road path planning. The question we want to explore here is, can we estimate the local heightmap based on local sensory information only? And can we do it in a way that enables real time navigation?
 
 This research is targeted at scenarios where the vehicle is operating in an unknown environment and the terrain heightmap is not known / cannot be known a-priory.
 LIDAR is a very useful tool at our disposal for this task because of its ability to directly measure the relative position of a point in the 3D space. But using LIDAR for heightmap estimation has its own set of challenges including,
