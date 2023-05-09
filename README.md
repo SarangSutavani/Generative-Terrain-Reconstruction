@@ -10,15 +10,11 @@ LIDAR is a very useful tool at our disposal for this task because of its ability
 
 ## Proposed Approach:
 We propose an image processing based approach that utilizes the well-known representation learning capabilities of the generative adversarial networks (GAN) for processing the LIDAR data.
-
 In this approach we first project the sparce LIDAR scan on the ground plane and down sample it to represent the available information as a 2.5D heightmap image with many blank spaces.
-
 Our goal is to then estimate the missing parts of the image in a manner consistent with the available/measured information.
 
 We used the conditional GAN (cGAN) approach for the estimation of the missing parts, where the cGAN heightmap estimation is conditioned on the ground projection of the space LIDAR scan.
-
 We setup a pipeline to generate the data in the form of input image and corresponding label image, as required for the cGAN training.
-
 We tested this methodology on several training sets differing in terrain variation, obstacle sets and the density of LIDAR scans.
 
 
