@@ -41,6 +41,8 @@ $\mathcal{L}_{GAN}^{\mathcal{D}}(x) =\ y\ log(\mathcal{D}(x)) + (1-y)\ log(1 - \
 
 # Some Results
 ![GAN_losses](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/ce82f21a-8214-451e-aed4-fa10a7782b8b)
+<img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/ce82f21a-8214-451e-aed4-fa10a7782b8b" width=50% height=50%>
+<!-- GAN_losses -->
 ![obstacles_only_result](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/fe78852e-96a3-4e0e-b9cd-622db61a23d7)
 ![negative_obstacles_result](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/cbcc0d63-32b5-4293-95ff-1be72b6ef341)
 ![GAN_prediction](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/7804f38e-1b1e-4091-b41d-65031fd1a675)
