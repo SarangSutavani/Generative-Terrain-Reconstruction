@@ -40,9 +40,11 @@ $\mathcal{L}_{GAN}^{\mathcal{G}} = log(\mathcal{D}(\mathcal{G}(u))) + \lambda\ L
 $\mathcal{L}_{GAN}^{\mathcal{D}}(x) =\ y\ log(\mathcal{D}(x)) + (1-y)\ log(1 - \mathcal{D}(\mathcal{G}(u)))$.
 
 # Some Results
+### cGAN Training
 <img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/ce82f21a-8214-451e-aed4-fa10a7782b8b" width=50% height=50%>
 <!-- GAN_losses -->
 
+### Terrain Reconstruction Results on the Obstacle Only Setup
 <img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/fe78852e-96a3-4e0e-b9cd-622db61a23d7" width=50% height=50%>
 <!-- obstacles_only_result -->
 
