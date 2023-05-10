@@ -34,6 +34,6 @@ A step-by-step layout of the data generation process is provided next.
 
 https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/71d110c1-f46e-455a-9873-965aa050f486
 
-### Resulting LIDAR Images
+### Some Resulting LIDAR Images
 <img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/cd30a2cc-265e-42c8-bbc5-2dc438979eb9" width=50% height=50%>
 <!-- LIDAR_images_2 -->
