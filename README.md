@@ -42,7 +42,7 @@ Perlin noise implements multiple functions called 'octaves' to produce natural-l
 2. LIDAR data generation:
 We used CoppeliaSim software for generating 3D LIDAR point cloud data. CoppeliaSim, previously known as V-REP, is a robot simulator used in industry, education, and research. We import the heightmap generated in the previous step to the simulation environment of CoppeliaSim to construct a 3D representation of the terrain. Then using a LIDAR block available in the CoppeliaSim, we generate the required LIDAR point cloud in the simulation. This point cloud data is used to generate the LIDAR images.
 
-<img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/d3ddd031-8ba4-47ff-ad9e-936952ae8585" width=50% height=50%>
+<img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/d3ddd031-8ba4-47ff-ad9e-936952ae8585" width=80% height=80%>
 <!-- Picture2 -->
 
 
@@ -54,5 +54,6 @@ Additionally, by adjusting the complexity of the neural network it can implement
 The output of this procedure can be used as a starting point other (computationally expensive) techniques to speed up the terrain reconstruction process. Or, it can also be used as a backup that requires only limited resources. 
 Since, the LIDAR scan is represented in the form of an image, therefore well established methods from image processing can be used to improve the performance.
 
-![Picture3](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/3906e3e8-23b0-4cdd-9211-5058bb67968e)
+<img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/3906e3e8-23b0-4cdd-9211-5058bb67968e" width=50% height=50%>
+<!-- Picture3 -->
 
