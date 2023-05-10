@@ -38,3 +38,6 @@ $\mathcal{L}_{GAN}^{\mathcal{G}} = log(\mathcal{D}(\mathcal{G}(u))) + \lambda\ L
 ### Discriminator Loss
 
 $\mathcal{L}_{GAN}^{\mathcal{D}}(x) =\ y\ log(\mathcal{D}(x)) + (1-y)\ log(1 - \mathcal{D}(\mathcal{G}(u)))$.
+
+## Some Results
+
