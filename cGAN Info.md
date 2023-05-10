@@ -29,7 +29,7 @@ The pix2pix GAN uses pairwise image data (input image and the lable/ground truth
 |  | 512 | 4 | 2 | same |
 |  | 256 | 4 | 2 | valid | 
 |  | 128 | 4 | 2 | same | 
-|  | 512 | 4 | 2 | same |
+|  | 64 | 4 | 2 | same |
 
 ### Genrator Loss
 
