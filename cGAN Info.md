@@ -14,8 +14,8 @@ The pix2pix GAN uses pairwise image data (input image and the lable/ground truth
 
 ### Generator U-net architectrure
 
-| Command | Description |
-| --- | --- |
+| Stage | Filters | Size | Stride | Padding |
+| --- | --- | --- | --- | --- | --- |
 | git status | List all new or modified files |
 | git diff | Show file differences that haven't been staged |
 
