@@ -1,3 +1,10 @@
+# Data Generation
+
+The proposed approach uses heightmap images of unstructured terrain as the ground truth data. These heightmaps are used to train the neural network to approximate a function that produce accurate terrain heightmaps when fed with sparse LIDAR data images. 
+
+To generate the data set required for the training of the cGAN, we used Perlin Noise python library, CoppeliaSim simulator, and Matlab software. 
+A step-by-step layout of the data generation process is provided next.
+
 # Running LiDAR Simulations
 ![Picture4](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/4cd9480a-b2e2-4b06-8349-93c20c70908c)
 
