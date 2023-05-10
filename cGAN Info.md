@@ -18,6 +18,12 @@ The pix2pix GAN uses pairwise image data (input image and the lable/ground truth
 | --- | --- | --- | --- | --- |
 | Encoder (Convolution 2D)| 64 | 3 | 2 | valid |
 |  | 128 | 4 | 2 | same |
+|  | 256 | 4 | 2 | valid | 
+|  | 512 | 4 | 2 | same |
+|  | 512 | 4 | 2 | same | 
+|  | 512 | 4 | 2 | same | 
+|  | 512 | 4 | 2 | same |
+
 
 ### Genrator Loss
 
