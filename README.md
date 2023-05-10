@@ -51,3 +51,6 @@ The LIDAR data processing pipeline (for individual scans) can be compressed to a
 Additionally, by adjusting the complexity of the neural network it can implemented on devices with low memory and low compute power to run with low latency.
 The output of this procedure can be used as a starting point other (computationally expensive) techniques to speed up the terrain reconstruction process. Or, it can also be used as a backup that requires only limited resources. 
 Since, the LIDAR scan is represented in the form of an image, therefore well established methods from image processing can be used to improve the performance.
+
+![Picture3](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/3906e3e8-23b0-4cdd-9211-5058bb67968e)
+
