@@ -25,7 +25,6 @@ A step-by-step layout of the data generation process is provided next.
 4. Orient windows according to screenshot located in Generative-Terrain-Reconstruction folder!
 
 <img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/a8ca9fef-4d1f-4b16-a6eb-d0ad16b594d1" width=100% height=100%>
-
 <!-- Screenshot from 2022-10-10 11-27-24 -->
 
 5. Close unecessary windows
@@ -35,3 +34,6 @@ A step-by-step layout of the data generation process is provided next.
 
 https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/71d110c1-f46e-455a-9873-965aa050f486
 
+### Resulting LIDAR Images
+<img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/cd30a2cc-265e-42c8-bbc5-2dc438979eb9" width=100% height=100%>
+<!-- LIDAR_images_2 -->
