@@ -8,7 +8,8 @@ LIDAR is a very useful tool at our disposal for this task because of its ability
 -	uncertainties, occlusions and sparsity in the data,
 -	high computational burden associated with the processing of raw LIDAR point-cloud data.
 	
-![Picture1](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/dd57afe5-0a0c-45bf-ae90-744117bf793e)
+<img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/dd57afe5-0a0c-45bf-ae90-744117bf793e" width=50% height=50%>
+<!-- Picture1 -->
 
 
 ## Proposed Approach:
