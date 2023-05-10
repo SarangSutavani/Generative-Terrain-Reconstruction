@@ -14,4 +14,8 @@ The pix2pix GAN uses pairwise image data (input image and the lable/ground truth
 
 ### Genrator Loss
 
+$\mathcal{L}_{GAN}^{\mathcal{G}} = log(\mathcal{D}(\mathcal{G}(u))) + \lambda\ L_1 loss$.
+
+### Discriminator Loss
+
 $\mathcal{L}_{GAN}^{\mathcal{D}}(x) =\ y\ log(\mathcal{D}(x)) + (1-y)\ log(1 - \mathcal{D}(\mathcal{G}(u)))$.
