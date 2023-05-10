@@ -24,7 +24,6 @@ For positive obstacles the corresponding areas in the heightmaps are assigned th
 <!-- 1 -->
 
 ### Terrain + Obstacle 
-![1](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/4e740e1d-9f83-436c-9d31-cc7a36f0ec42)
 <img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/4e740e1d-9f83-436c-9d31-cc7a36f0ec42" width=25% height=25%>
 <!-- 1 -->
 
