@@ -1,4 +1,5 @@
 # Running LiDAR Simulations
+![Picture4](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/4cd9480a-b2e2-4b06-8349-93c20c70908c)
 
 1. Open matlab lidar_datagen.m file
 	- Run matlab to ensure folder is in the current .m file path
