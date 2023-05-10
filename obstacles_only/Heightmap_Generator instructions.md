@@ -19,3 +19,7 @@ To include the obstacles in the terrain, we added various complex shapes to the 
 The obstacle shapes include various regular convex shapes as well as non-convex shapes. The shapes are placed randomly in the heightmap to achieve better generalization. 
 The obstacles added can also be classified in two types: positive obstacles (representing the things like trees, rocks, etc.) and negative obstacles (representing the things like ditches).
 For positive obstacles the corresponding areas in the heightmaps are assigned the the maximum value of 255. Contrary to this, for negative obstacles the corresponding areas in the heightmaps are assigend the minimum value of 0.
+
+![1](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/3667dcbf-946a-497e-b32b-700d16c8fa7e)
+
+
