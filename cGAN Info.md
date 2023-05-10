@@ -12,6 +12,13 @@ The pix2pix GAN uses pairwise image data (input image and the lable/ground truth
 
 ![Picture5](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/fe94586c-c12a-4e81-839e-318f7dd4fbfd)
 
+### Generator U-net architectrure
+
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
 ### Genrator Loss
 
 $\mathcal{L}_{GAN}^{\mathcal{G}} = log(\mathcal{D}(\mathcal{G}(u))) + \lambda\ L_1 loss$.
