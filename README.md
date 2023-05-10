@@ -7,6 +7,9 @@ LIDAR is a very useful tool at our disposal for this task because of its ability
 -	unstructured nature of the measured data,
 -	uncertainties, occlusions and sparsity in the data,
 -	high computational burden associated with the processing of raw LIDAR point-cloud data.
+	
+![Picture1](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/dd57afe5-0a0c-45bf-ae90-744117bf793e)
+
 
 ## Proposed Approach:
 We propose an image processing based approach that utilizes the well-known representation learning capabilities of the generative adversarial networks (GAN) for processing the LIDAR data.
