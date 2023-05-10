@@ -48,11 +48,9 @@ $\mathcal{L}_{GAN}^{\mathcal{D}}(x) =\ y\ log(\mathcal{D}(x)) + (1-y)\ log(1 - \
 <img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/fe78852e-96a3-4e0e-b9cd-622db61a23d7" width=50% height=50%>
 <!-- obstacles_only_result -->
 
-![negative_obstacles_result](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/cbcc0d63-32b5-4293-95ff-1be72b6ef341)
 <img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/cbcc0d63-32b5-4293-95ff-1be72b6ef341" width=50% height=50%>
 <!-- negative_obstacles_result -->
 
 ### Terrain Reconstruction with no Obstacle
-![GAN_prediction](https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/7804f38e-1b1e-4091-b41d-65031fd1a675)
 <img src="https://github.com/SarangSutavani/Generative-Terrain-Reconstruction/assets/45416495/7804f38e-1b1e-4091-b41d-65031fd1a675" width=50% height=50%>
 <!-- GAN_prediction -->
